@@ -10,3 +10,10 @@ a = 10
 b = 1
 b = a + b
 print(b)
+v = 100
+def test():
+    global v
+    v = 200
+    print(0)
+test()
+print(v)
