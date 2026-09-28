@@ -6,3 +6,7 @@ print('zhangyining')
 name = '张益宁'
 age = 20
 print(f'我的名字是： {name}, 我的年龄是：{age}')
+a = 10
+b = 1
+b = a + b
+print(b)
